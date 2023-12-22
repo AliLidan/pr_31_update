@@ -33,7 +33,7 @@ public class MainActivity2 extends AppCompatActivity {
         btn = findViewById(R.id.imageButton3);
 
 
-        textView = findViewById(R.id.textView);
+        textView = findViewById(R.id.textView77);
         databaseHelper = new db_helper(this);
         db = databaseHelper.getReadableDatabase();
 

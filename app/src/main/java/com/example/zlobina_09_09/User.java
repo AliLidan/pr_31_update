@@ -20,7 +20,7 @@ public class User extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textView = findViewById(R.id.textView);
+        textView = findViewById(R.id.textView77);
         databaseHelper = new db_helper(this);
         db = databaseHelper.getReadableDatabase();
 
