@@ -32,8 +32,8 @@ public class MainActivity2 extends AppCompatActivity {
         btnback = findViewById(R.id.imageButton);
         btn = findViewById(R.id.imageButton3);
 
-
-        textView = findViewById(R.id.textView77);
+// commit
+        textView = findViewById(R.id.textView);
         databaseHelper = new db_helper(this);
         db = databaseHelper.getReadableDatabase();
 
